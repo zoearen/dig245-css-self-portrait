@@ -8,6 +8,34 @@ Create a self-portrait using only HTML and CSS
 <sup>Work by past students</sup>
 
 
+<details>
+<summary>Learning Objectives</summary>
+
+Students who complete the following will be able to:
+
+- Recall the different values of the CSS `position` property and appropriate uses for each
+- Describe the CSS box model and its components
+- Compare methods for changing the color of web elements with CSS
+- Use HTML, CSS, JS to code a web page with a creative self-portrait
+
+</details>
+
+
+<details>
+<summary>Preparation</summary>
+
+Complete the following to prepare for this assignment
+
+- [Codecademy: JS 1-1 Introduction to Javascript](https://www.codecademy.com/learn/introduction-to-javascript) (1–8)
+- [Codecademy: CSS 2-1 The Box Model](https://www.codecademy.com/learn/learn-css) (1-17)
+- [Codecademy: CSS 2-2 Changing the Box Model](https://www.codecademy.com/learn/learn-css) (1-5)
+- [Codecademy: CSS 3-1 Display and Positioning](https://www.codecademy.com/learn/learn-css) (1-12)
+- Quiz 2 - Document Standards
+
+</details>
+
+
+
 
 ## Instructions
 
@@ -25,6 +53,7 @@ Create a self-portrait using only HTML and CSS
 - [ ] Create those elements with HTML `<div>` tags
 - [ ] Use CSS properties to adjust the color, position, rotation, height, width, z-index, etc. of your elements
 - [ ] Use only HTML and CSS for graphics; Do not add image or SVG files to the code.
+- [ ] Use Javascript to display the current mouse x,y position on the page
 
 #### Publish
 - [ ] [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
@@ -43,7 +72,7 @@ Points | Description
 4 | Concept
 4 | Originality
 4 | Execution / Technical
-4 | Project is online, accessible, and linked from Moodle
+4 | Project is online, accessible, and linked from Moodle by the deadline
 4 | Valid HTML and CSS
 20 | Total possible
 
