@@ -25,6 +25,7 @@ Students who complete the following will be able to:
 
 Complete the following to prepare for this assignment
 
+- Figma Tutorial: [Pen Tool Basics & Vector Networks](https://www.youtube.com/watch?v=5x2uHUB_pzw) (3:47)
 - [Codecademy: JS 1-1 Introduction to Javascript](https://www.codecademy.com/learn/introduction-to-javascript) (1–8)
 - [Codecademy: CSS 2-1 The Box Model](https://www.codecademy.com/learn/learn-css) (1-17)
 - [Codecademy: CSS 2-2 Changing the Box Model](https://www.codecademy.com/learn/learn-css) (1-5)
