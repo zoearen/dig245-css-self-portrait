@@ -97,6 +97,7 @@ Points | Description
 <summary>Past examples</summary>
 
 <!-- 2021-fall -->
+[Owen](https://jsfiddle.net/ow3n/xnkfLuvz/)
 [Drew](https://drdibble.github.io/dig245-css-self-portrait/)
 [Annelise](https://anclaire.github.io/dig245-css-self-portrait/)
 [Evan](https://evrothman.github.io/dig245-css-self-portrait/)
