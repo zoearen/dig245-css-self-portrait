@@ -8,6 +8,10 @@ Create a self-portrait using only HTML and CSS
 <sup>Work by past students</sup>
 
 
+
+## Introduction
+
+
 <details>
 <summary>Learning Objectives</summary>
 
@@ -19,6 +23,7 @@ Students who complete this assignment will be able to:
 - Use HTML, CSS, JS to code a web page with a creative self-portrait
 
 </details>
+
 
 <details>
 <summary>Preparation</summary>
@@ -37,9 +42,12 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 
 
 
-## Instructions
+## Assigment
 
-1. Fork this repository and clone it to your `critical-web-design` folder on your machine.
+
+### Setup
+
+[Fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.gad119073e1_0_6) this repository and [clone](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9930d559e8_0_0) it to the `critical-web-design` folder on your machine.
 
 #### Design
 
@@ -59,13 +67,13 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 1. Also consider the CSS [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) property which lets you rotate, scale, skew, or translate elements
 1. Use only HTML and CSS for graphics; Do not add image or SVG files to the code.
 1. Use Javascript to display the current mouse `x`,`y` positions on the page.
-1. Use Javascript to store and log the total number of HTML elements you used in your portrait using [`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll).  
+1. Use Javascript to store and log the total number of HTML elements you used in your portrait using [`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll).
 
 #### Publish
 
 1. [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
 1. Commit changes regularly.
-1. Confirm valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) <sup>([?](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/css.md#css-validation))</sup>
+1. Confirm valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) <sup>([?](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/css.md#css-validation))</sup>
 1. When finished, [push, publish, and post your project](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit#bookmark=id.8jryplv1i8a)
 
 
@@ -90,7 +98,7 @@ Points | Description
 
 ## Resources
 
-- Course references [HTML](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/html.md), [CSS](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/css.md), and [JS](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/javascript.md)
+- Course references [HTML](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/html.md), [CSS](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/css.md), and [JS](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/javascript/javascript.md)
 
 
 <details>
