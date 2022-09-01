@@ -11,6 +11,7 @@ Create a self-portrait using only HTML and CSS
 
 ## Introduction
 
+Practice previsualizing a layout using tools in Figma and translating the design into HTML CSS code using positioning, the box model, and z-index.
 
 <details>
 <summary>Learning Objectives</summary>
@@ -24,7 +25,6 @@ Students who complete this assignment will be able to:
 
 </details>
 
-
 <details>
 <summary>Preparation</summary>
 
@@ -36,6 +36,27 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 - [Codecademy: CSS 2-2 Changing the Box Model](https://www.codecademy.com/learn/learn-css) (1-5)
 - [Codecademy: CSS 3-1 Display and Positioning](https://www.codecademy.com/learn/learn-css) (1-12)
 - Quiz 2 - Document Standards
+- Course content listed on the schedule
+
+</details>
+
+<details>
+<summary>Rubric</summary>
+
+Points | Description
+---: | ---
+10 | The original drawing(s) in Figma are linked, creative, and reflect research into the subject.
+10 | The elements of the graphic are consistent throughout the page.
+10 | The portrait represents the student to some degree.
+10 | The HTML document uses correct structure, nesting, and syntax throughout.
+10 | The student expanded their knowledge on their own (e.g. experimented with new tags).
+10 | Javascript prompts (x,y, querySelectorAll) are working as instructed.
+10 | The content of the page follows parameters outlined in instructions.
+10 | All code is working as intended.
+10 | All code is valid and properly structured. No missing references or errors in the console.
+10 | The project is online, accessible, and linked from Moodle by the deadline.
+100 | Total possible
+
 
 </details>
 
@@ -49,27 +70,30 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 
 [Fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.gad119073e1_0_6) this repository and [clone](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9930d559e8_0_0) it to the `critical-web-design` folder on your machine.
 
-#### Design
+### Design
 
-1. Plan your process and make sketches in [Figma](https://www.youtube.com/watch?v=AJK9NBGL5Bk)
-1. Look for inspiration
-    - Art history [famous self-portraits](https://mymodernmet.com/famous-self-portraits/)
-    - Collections [Dribble flat characters](https://dribbble.com/search/flat%20characters), [@musketon](https://www.instagram.com/musketon/), [@thomcat23](https://www.instagram.com/thomcat23/), [@thomas_danthony](https://www.instagram.com/thomas_danthony/), [@vector.mob](https://www.instagram.com/vector.mob/), [@cecierlich](https://www.instagram.com/cecierlich/), [@owendaveydraws](https://www.instagram.com/owendaveydraws/), [@mister_fred_berlin](https://www.instagram.com/mister_fred_berlin/), [@nina_dzyvulska](https://www.instagram.com/nina_dzyvulska/), [@eezy](https://www.instagram.com/eezy/)
-    - Generative [Humaaans](https://www.humaaans.com/)
-    - Internet Art [abstractbrowsing.net](http://www.abstractbrowsing.net), [species-in-pieces.com](http://species-in-pieces.com/), [Form Art](http://www.c3.hu/collection/form/), [Lorna Mills](https://www.instagram.com/lorna.mills/?hl=en)
-1. For example, try drawing over an image of yourself in [Figma](https://figma.com) with the shape tool, choosing colors as you do. (feel free to experiment an find your own method!)
+1. Start by looking at examples for inspiration
 
-#### Code
+- Art history [famous self-portraits](https://mymodernmet.com/famous-self-portraits/)
+- Collections [Dribble flat characters](https://dribbble.com/search/flat%20characters), [@musketon](https://www.instagram.com/musketon/), [@thomcat23](https://www.instagram.com/thomcat23/), [@thomas_danthony](https://www.instagram.com/thomas_danthony/), [@vector.mob](https://www.instagram.com/vector.mob/), [@cecierlich](https://www.instagram.com/cecierlich/), [@owendaveydraws](https://www.instagram.com/owendaveydraws/), [@mister_fred_berlin](https://www.instagram.com/mister_fred_berlin/), [@nina_dzyvulska](https://www.instagram.com/nina_dzyvulska/), [@eezy](https://www.instagram.com/eezy/)
+- Generative / deformations [Humaaans](https://www.humaaans.com/), Rafaël Rozendaal [Polychrome](https://www.instagram.com/p/ChcOtIDrWOw/?hl=en), David Lewandowski [Late for Meeting](https://vimeo.com/78424222)
+- Internet Art [abstractbrowsing.net](http://www.abstractbrowsing.net), [species-in-pieces.com](http://species-in-pieces.com/), [Form Art](http://www.c3.hu/collection/form/), [Lorna Mills](https://www.instagram.com/lorna.mills/?hl=en)
+
+2. Previsualize your layout by making sketches in [Figma](https://www.youtube.com/watch?v=AJK9NBGL5Bk). For example, try placing an image of yourself and tracing it with the shape tool, choosing colors as you do. (feel free to experiment an find your own method!)
+
+### Code
 
 1. Use HTML, CSS, and JS to code your design inside `index.html`
+1. Use only hand-typed HTML and CSS for graphics; Do not add image or SVG files to the code. Do not use Figma to export code from your drawing.
 1. Create those elements with HTML `<div>` tags
 1. Use CSS properties to adjust the [background-color](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color), [position](https://developer.mozilla.org/en-US/docs/Web/CSS/position), [height](https://developer.mozilla.org/en-US/docs/Web/CSS/height), [width](https://developer.mozilla.org/en-US/docs/Web/CSS/width), [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index), etc. of your elements
 1. Also consider the CSS [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) property which lets you rotate, scale, skew, or translate elements
-1. Use only HTML and CSS for graphics; Do not add image or SVG files to the code.
-1. Use Javascript to display the current mouse `x`,`y` positions on the page.
+1. Use Javascript to display the current mouse `x`,`y` positions on the page (this will help with your layout practice).
 1. Use Javascript to store and log the total number of HTML elements you used in your portrait using [`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll).
+1. Add link(s) somewhere on the page to your original sketches in Figma.
 
-#### Publish
+
+### Publish
 
 1. [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
 1. Commit changes regularly.
@@ -79,19 +103,7 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 
 
 
-<details>
-<summary>Grading</summary>
 
-Points | Description
----: | ---
-4 | Concept
-4 | Originality
-4 | Execution / Technical
-4 | Project is online, accessible, and linked from Moodle by the deadline
-4 | Valid HTML and CSS
-20 | Total possible
-
-</details>
 
 
 
