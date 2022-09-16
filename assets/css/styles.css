@@ -1,2 +1,249 @@
+#bearlear {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 334px;
+  top: 41px;
+  border-radius: 10px 10px 0px 10px;
+  background: #B7FFF2;
+}
 
-/* css */
+    #bearrear {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      left: 419px;
+      top: 41px;
+      border-radius: 10px 10px 0px 10px;
+      transform: rotate(90deg);
+      background: #A8F0F8;
+    }
+
+    #bearbody {
+      position: absolute;
+      width: 100px;
+      height: 80px;
+      left: 339px;
+      top: 46px;
+      border-radius: 50px 50px 20px 20px;
+      background: linear-gradient(180deg, #B7FFF2 0.52%, #8CD6FF 49.48%, #536EFF 100%);
+    }
+
+    #bearnose {
+      position: absolute;
+      width: 10px;
+      height: 5px;
+      left: 370px;
+      top: 81px;
+      border-radius: 50px;
+      background: #3247B5;
+    }
+
+    #bearleye {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      left: 351px;
+      top: 81px;
+      border-radius: 5px;
+      background: #5D5AD2;
+    }
+
+    #bearreye {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      left: 401px;
+      top: 81px;
+      border-radius: 5px;
+      background: #4C34DC;
+    }
+
+    #head {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background: #FFDAD5;;
+      border-radius: 150px 150px 150px 150px;
+      top: 111px;
+      left: 246px;
+    }
+
+    #body {
+      position: absolute;
+      width: 270px;
+      height: 179px;
+      border-radius: 135px 135px 0px 0px;
+      left: 261px;
+      top: 456px;
+      background: linear-gradient(180deg, #8CD6FF 0%, #FFFBDD 100%);
+    }
+
+    #neck {
+      position: absolute;
+      width: 70px;
+      height: 120px;
+      left: 361px;
+      top: 369px;
+      background: linear-gradient(180deg, #AE7B6B 0%, #FFDAD5 100%);
+      border-radius: 50px;
+    }
+
+     #ponytail {
+       position: absolute;
+       width: 85px;
+       height: 85px;
+       left: 389px;
+       top: 69px;
+       border-radius: 45px;
+       background: #000000;
+     }
+
+    #lefteye {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: #000000;
+      border-radius: 10px;
+      top:272px;
+      left:296px;
+    }
+
+    #righteye {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: #000000;
+      border-radius: 10px;
+      top:272px;
+      left:411px;
+    }
+
+    #leftbrow {
+      position: absolute;
+      width: 30px;
+      height: 10px;
+      background-color: #000000;
+      border-radius: 5px;
+      top:246px;
+      left:291px;
+    }
+
+    #rightbrow {
+      position: absolute;
+      width: 30px;
+      height: 10px;
+      background-color: #000000;
+      border-radius: 5px;
+      top:246px;
+      left:406px;
+    }
+
+    #mouth {
+      position: absolute;
+      width: 50px;
+      height: 8px;
+      left: 345px;
+      top: 320px;
+      background: #000000;
+      border-radius: 4px;
+    }
+
+    #rightpart {
+      position: absolute;
+      width: 166px;
+      height: 150px;
+      left: 380px;
+      top: 111px;
+      border-radius: 0px 130px 0px 100px;
+      background: linear-gradient(180deg, #000000 0%, #49413D 100%);;
+    }
+
+    #leftpart {
+      position: absolute;
+      width: 119px;
+      height: 150px;
+      left: 246px;
+      top: 111px;
+      border-radius: 150px 0px 100px 0px;
+      background: linear-gradient(180deg, #000000 0%, #49413D 100%);;
+    }
+
+    #centerpart {
+      position: absolute;
+      width: 15px;
+      height: 54px;
+      left: 365px;
+      top: 111px;
+      background: #0E0D0C;
+    }
+
+    #part {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      left: 365px;
+      top: 158px;
+      border-radius: 10px;
+      background: #FFDAD5;
+      border-radius: 10px;
+    }
+    .canvas {
+      position: relative;
+      width: 800px;
+      height: 635px;
+      left: 21%;
+      top: 50%;
+      background: linear-gradient(#FF9900 0%, #FFFCE0 100%);
+    }
+
+    .backgroundtext{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-family: Impact;
+      font-size: 40px;
+      line-height: 60px;
+      color: linear-gradient(270deg, rgba(0, 77, 168, 0.99) 7.35%, #8CD6FF 103.86%);
+      background: linear-gradient(
+          to right, #004DA8, #8CD6FF);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+
+    h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact;
+    background: linear-gradient(
+        to right, Coral,
+        LightCyan, LightSkyBlue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, #FF9900 0%, #FFFCE0 100%);
+      <!--background: linear-gradient(
+          Black, Indigo, CornflowerBlue);-->
+    }
+
+
+    @media (prefers-reduced-motion: no-preference) {
+      .canvas-animation {
+        animation: wipe-enter 1s 1;
+      }
+    }
+
+  a {
+    font-size: 30px;
+    font-family: Impact;
+    font-style: bold;
+    background: linear-gradient(
+        to right,  #004DA8, #8CD6FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+  }
