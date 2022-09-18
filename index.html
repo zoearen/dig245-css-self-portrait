@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- meta tags, links to css, etc. -->
+
   <title>DIG 245 CSS Self-Portrait</title>
 
   <link rel="stylesheet" href="assets/css/styles.css" />
 
+  <script src="jquery-3.6.0.min.js"> </script>
+
 </head>
 <body>
 
-<!-- visible content goes here -->
-  <h1> DIG 245 CSS Self-Portrait </h1>
+<!-- Title-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h3 class="animate-charcter"> DIG 245 CSS Self-Portrait </h3>
+      </div>
+    </div>
+  </div>
 
+<!-- Portrait -->
   <div class="canvas">
     <div id="body"> </div>
     <div id="neck"> </div>
@@ -27,20 +36,20 @@
     <div id="righteye"></div>
     <div id="mouth"></div>
 
-    <div id="bearlear"></div>
-    <div id="bearrear"></div>
+    <div id="bearear" style="left: 334px; top: 41px; background: #B7FFF2;"> </div>
+    <div id="bearear" style="left: 419px;top: 41px; transform:rotate(90deg); background: #A8F0F8;">
+      </div>
     <div id="bearbody"></div>
     <div id="bearnose"></div>
-    <div id="bearleye"></div>
-    <div id="bearreye"></div>
+    <div id="beareye" style="left: 401px; top: 81px; background: #4C34DC"> </div>
+    <div id="beareye" style="left: 351px; top: 81px; background: #5D5AD2;"></div>
   </div>
-  <p>  </p>
-  <marquee behavior="alternate">
-    <a href="https://www.figma.com/community/file/1152403272885229017">
-      CLICK HERE FOR FIGMA MOCKUPS!
-    </a>
-  </marquee>
 
-  <script src="assets/js/main.js"></script>
-</body>
-</html>
+<!-- Figma link-->
+  <button class="button" style="vertical-align:middle">
+    <span>
+      <a href="https://www.figma.com/community/file/1152403272885229017">
+      Figma Mockups
+      </a>
+    </span>
+  </button>
