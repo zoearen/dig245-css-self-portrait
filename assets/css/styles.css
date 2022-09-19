@@ -20,7 +20,11 @@ a {
   font-style: bold;
 }
 
-p{
+p {
+  color: white
+}
+
+span{
   color: #FFFFFF;
 }
 /* Classes */
