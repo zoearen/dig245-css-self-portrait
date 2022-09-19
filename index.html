@@ -10,7 +10,7 @@
 
 </head>
 
-<body onmousemove="getCursorPosition(event)" >
+<body>
 <!-- Title-->
   <div class="container">
     <div class="row">
@@ -19,7 +19,16 @@
       </div>
     </div>
   </div>
-
+  <p>
+    x: <span id="x-value"></span>
+    y: <span id="y-value"></span>
+  </p>
+  <script type="text/javascript">
+    window.addEventListener('mousemove', function(e) {
+      document.getElementById('x-value').textContent = e.x;
+      document.getElementById('y-value').textContent = e.x;
+    })
+  </script>
   <!-- Portrait -->
   <div class="canvas">
     <div id="body"> </div>
