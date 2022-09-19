@@ -9,8 +9,8 @@
   <script src="jquery-3.6.0.min.js"> </script>
 
 </head>
-<body>
 
+<body onmousemove="getCursorPosition(event)" >
 <!-- Title-->
   <div class="container">
     <div class="row">
@@ -20,7 +20,7 @@
     </div>
   </div>
 
-<!-- Portrait -->
+  <!-- Portrait -->
   <div class="canvas">
     <div id="body"> </div>
     <div id="neck"> </div>
@@ -45,11 +45,29 @@
     <div id="beareye" style="left: 351px; top: 81px; background: #5D5AD2;"></div>
   </div>
 
-<!-- Figma link-->
+  <!-- Figma link-->
   <button class="button" style="vertical-align:middle">
     <span>
-      <a href="https://www.figma.com/community/file/1152403272885229017">
-      Figma Mockups
-      </a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a class="animate-charcter" href="https://www.figma.com/community/file/1152403272885229017">
+              Figma Mockups
+            </a>
+          </div>
+        </div>
+      </div>
     </span>
   </button>
+  
+  <!--Java-->
+  <script>
+    const matches = document.querySelectorAll('div');
+    console.log(matches);
+    function getCursorPosition(event) {
+    var xCursorPosition = event.clientX;
+    var yCursorPosition = event.clientY;
+    }
+  </script>
+
+</body>

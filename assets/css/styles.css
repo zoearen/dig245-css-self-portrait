@@ -50,7 +50,7 @@ a {
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 50px;
+  font-size: 25px;
 }
 
 /*button styling*/
@@ -94,12 +94,6 @@ a {
 .button:hover span:after {
   opacity: 1;
   right: 0;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .canvas-animation {
-      animation: wipe-enter 1s 1;
-  }
 }
 
 @keyframes textclip {
