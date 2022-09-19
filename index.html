@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
   <title>DIG 245 CSS Self-Portrait</title>
@@ -11,7 +12,7 @@
 </head>
 
 <body>
-<!-- Title-->
+  <!-- Title-->
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -24,7 +25,7 @@
     x: <span id="x-value"></span>
     y: <span id="y-value"></span>
   </p>
-  
+
   <script type="text/javascript">
     window.addEventListener('mousemove', function(e) {
       document.getElementById('x-value').textContent = e.x;
@@ -36,7 +37,7 @@
     <div id="body"> </div>
     <div id="neck"> </div>
     <div id="ponytail"> </div>
-    <div id="head" > </div>
+    <div id="head"> </div>
     <div id="leftpart"> </div>
     <div id="rightpart"> </div>
     <div id="centerpart"> </div>
@@ -49,7 +50,7 @@
 
     <div id="bearear" style="left: 334px; top: 41px; background: #B7FFF2;"> </div>
     <div id="bearear" style="left: 419px;top: 41px; transform:rotate(90deg); background: #A8F0F8;">
-      </div>
+    </div>
     <div id="bearbody"></div>
     <div id="bearnose"></div>
     <div id="beareye" style="left: 401px; top: 81px; background: #4C34DC"> </div>
@@ -75,9 +76,10 @@
   <script>
     const matches = document.querySelectorAll('div');
     console.log(matches);
+
     function getCursorPosition(event) {
-    var xCursorPosition = event.clientX;
-    var yCursorPosition = event.clientY;
+      var xCursorPosition = event.clientX;
+      var yCursorPosition = event.clientY;
     }
   </script>
 
